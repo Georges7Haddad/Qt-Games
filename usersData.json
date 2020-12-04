@@ -1,0 +1,70 @@
+{
+    "GeorgesH": {
+        "dateOfBirth: ": "01/02/2099",
+        "firstName": "Georges",
+        "game1Best": "0",
+        "game2Best": "0",
+        "lastName: ": "Haddad",
+        "mail": "test@mail.com",
+        "password: ": "FCgeorges7",
+        "profileFileName": "GeorgesH.png",
+        "username": "GeorgesH"
+    },
+    "bleast": {
+        "dateOfBirth": "02/10/1999",
+        "firstName": "Georges",
+        "game1Best": "150",
+        "game2Best": "0",
+        "gender": "male",
+        "lastName": "Haddad",
+        "mail": "bleast@mail.com",
+        "password": "Password1234",
+        "profileFileName": "bleast.png",
+        "username": "bleast"
+    },
+    "bleast2": {
+        "dateOfBirth": "07/11/1999",
+        "firstName": "Georges",
+        "game1Best": "0",
+        "game2Best": "0",
+        "gender": "male",
+        "lastName": "Haddad",
+        "mail": "bleast2@mail.com",
+        "password": "Password1234",
+        "username": "bleast2"
+    },
+    "bleast3": {
+        "dateOfBirth": "02/10/1999",
+        "firstName": "Georges",
+        "game1Best": "7",
+        "game2Best": "0",
+        "gender": "male",
+        "lastName": "Haddad",
+        "mail": "bleast@mail.com",
+        "password": "Password1234",
+        "profileFileName": "bleast.png",
+        "username": "bleast"
+    },
+    "cheetah": {
+        "dateOfBirth: ": "01/01/2000",
+        "firstName": "Georges",
+        "game1Best": "0",
+        "game2Best": "150",
+        "lastName": "Haddad",
+        "mail": "cheetah@gmail.com",
+        "password": "Password1234",
+        "profileFileName": "cheetah.png",
+        "username": "cheetah"
+    },
+    "yo": {
+        "dateOfBirth": "04/02/2003",
+        "firstName": "Yo",
+        "game1Best": "13",
+        "game2Best": "0",
+        "gender": "other",
+        "lastName": "Yo",
+        "mail": "yo@mail.com",
+        "password": "Password1234",
+        "username": "yo"
+    }
+}

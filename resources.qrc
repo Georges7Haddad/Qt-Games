@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>profilePictures/bleast.png</file>
+    </qresource>
+</RCC>

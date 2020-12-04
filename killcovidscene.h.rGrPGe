@@ -1,0 +1,29 @@
+#ifndef KILLCOVIDSCENE_H
+#define KILLCOVIDSCENE_H
+
+#include <QGraphicsScene>
+#include "virus.h"
+#include "doctor.h"
+
+class KillCovidScene : public QGraphicsScene
+{
+    Q_OBJECT
+public:
+    KillCovidScene(QString username = "Guest");
+    QString username;
+    Doctor* doctor;
+    void setViruses();
+    QList<Virus*> viruses;
+    QList<Virus*> virusesToRemove;
+
+    qint8 missedOrCollisionMax;
+    qint8 missedOrCollisionCounter;
+
+signals:
+public slots:
+    void createProjectile();
+    void collision();
+    void removeViruses();
+};
+
+#endif // KILLCOVIDSCENE_H
