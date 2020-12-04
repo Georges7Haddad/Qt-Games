@@ -1,20 +1,15 @@
-# README #
-
-Software project on Qt by Georges Haddad and Karim Dahrouge.
-
-We have 3 widgets:
- - Login Page
- - Signup Page
- - Welcome Page
+﻿I implemented a simple desktop app using C++ in Qt.
+In this project, a user is able to signup, login and play as guest. There are two games available: Kill Covid and Reversi(Othello).
+Note that my main goal in this project was to become familiar with Qt and implement working games; the design can be enhanced.
 # Accounts Management
 ## Login Page
 You can login using your username and password or play as a guest. If you're not yet registered you can go to the signup page.
  
 ## Signup Page
-You can signup by providing the mandatory fields specified by a star "*". You can also add a profile picture. We also check that the mail is valid as well as the password.
+You can signup by providing the mandatory fields specified by a star "*". You can also add a profile picture. We also check that the mail is valid as well as the password. All information are stored in json files.
  
 ## Welcome Page
-We welcome you while displaying your username and profile picture. You can also start one of the two games we'll implement later. We also show the highscore for each game as well as your personel best in case you already played the game before.
+We welcome you while displaying your username and profile picture. You can also start one of the two games. We also show the highscore for each game as well as your personel best in case you already played the game before.
 
 # Game 1: Kill Covid
 You're a doctor that can move across the map using the arrow keys and shoot projectiles represented by masks and pills using space.
@@ -30,3 +25,6 @@ There are 3 viruses sizes. Of course, hitting a smaller one, gives you more poin
 When a game ends you get redirected to a new screen which tells you if you lost or won also displaying your score. If you got a new personal best it congratulates you and update it in your profile. If it is also a new game best, it congratulates you and updates it in the game json file.
 
 Don't forget to turn on your speakers for some cool sound effects!
+# Game 2: Reversi(Othello)
+This is the classic game reversi also known as Othello. It is a strategy board game for two players, played on an 8×8 uncheckered board. 
+Each player has a color, and the aim of the game is to get more of your pieces on the board than the opponent's pieces. Players take turns placing disks on the board. During a play, any disks of the opponent's color that are in a straight line and bounded by the disk just placed and another disk of the current player's color are turned over to the current player's color. That works vertically, horizontally and diagonally. I also added a feature to have a global timer for each player. Depending on the difficulty you choose, each player is going to have 7, 15 or 30 minutes to play all their moves. When your turn starts, your timer starts and when your turn ends, the timer stops. If you run out of time, you lose the game.
